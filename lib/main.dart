@@ -16,7 +16,7 @@ class LoginApp extends StatelessWidget {
       ), // fin de theme
       darkTheme: ThemeData(
         brightness: Brightness.dark,
-        primarySwatch: Colors.purple,
+        primarySwatch: Colors.amber,
         visualDensity: VisualDensity.adaptivePlatformDensity,
       ), //fin de darkTheme
       home: IngresoSistema(),
