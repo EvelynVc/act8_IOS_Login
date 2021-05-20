@@ -88,6 +88,7 @@ class _IngresoSistemaState extends State<IngresoSistema> {
                 children: <Widget>[
                   TextField(
                     decoration: InputDecoration(
+                       color: Colors.amber,//aqui...........
                       filled: true,
                        //fillColor: Colors.amber,
                       labelText: 'Usuario',
