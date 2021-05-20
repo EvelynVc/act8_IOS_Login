@@ -137,13 +137,12 @@ class _IngresoSistemaState extends State<IngresoSistema> {
                 ], //fin de Widget[3]
               ) //fin de Column
 
-              SizedBox(height: 12.0),
-
             else
               Center(
                   child: Column(
                 children: <Widget>[
-                  Text('Si, Ya ingrese!'),
+                  Text('Yei, Ya ingrese!'),
+                  SizedBox(height: 12.0),
                   RaisedButton(
                     elevation: 20.0,
                     child: Text('Cerrar Sesion'),
@@ -154,9 +153,7 @@ class _IngresoSistemaState extends State<IngresoSistema> {
                     },
                   )
                 ],
-              )
-            )
-            
+              ))
           ], //fin de Widget[1]
         ), //fin de ListView
       ), //fin de body SaveArea
