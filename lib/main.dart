@@ -100,6 +100,7 @@ class _IngresoSistemaState extends State<IngresoSistema> {
                     decoration: InputDecoration(
                       filled: true,
                       labelText: 'Contraseña',
+                      fillColor: Colors.blueGrey,
                     ), //fin de inputDecoration
                     obscureText: true,
                   ), //fin de Textfield 2
