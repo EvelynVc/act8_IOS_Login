@@ -110,7 +110,7 @@ class _IngresoSistemaState extends State<IngresoSistema> {
                       mainAxisAlignment: MainAxisAlignment.end,
                       children: <Widget>[
                         FlatButton(
-                          color: Colors.amber, //aqui....
+                          color: Colors.amber,
                           child: Text('CANCELAR'),
                           onPressed: () {
                             setState(() {
@@ -118,8 +118,9 @@ class _IngresoSistemaState extends State<IngresoSistema> {
                             });
                           },
                         ),
+                        SizedBox(width: 12.0), //AQUI.......
                         RaisedButton(
-                          color: Colors.amber, //aqui....
+                          color: Colors.amber,
                           child: Text(
                             'SIGUIENTE',
                           ),
