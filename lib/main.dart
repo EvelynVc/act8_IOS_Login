@@ -121,7 +121,7 @@ class _IngresoSistemaState extends State<IngresoSistema> {
                         ),
                         SizedBox(width: 12.0), //AQUI.......
                         RaisedButton(
-                          color: Colors.lightBlue[900],
+                          color: Colors.pink,
                           child: Text(
                             'SIGUIENTE',
                           ),
@@ -143,7 +143,7 @@ class _IngresoSistemaState extends State<IngresoSistema> {
                 children: <Widget>[
                   Text(
                     'Yei, Ya ingrese!',
-                    style: TextStyle(fontSize: 50, color: Colors.indigo[900]),
+                    style: TextStyle(fontSize: 50, color: Colors.white),
                   ),
                   SizedBox(height: 12.0),
                   RaisedButton(
