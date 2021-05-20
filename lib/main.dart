@@ -144,7 +144,7 @@ class _IngresoSistemaState extends State<IngresoSistema> {
                   Text(
                     'Yei, Ya ingrese!',
                     textAlign: TextAlign.center,
-                    style: TextStyle(fontSize: 30, color: Colors.white),
+                    style: TextStyle(fontSize: 30, color: Colors.limeAcent[700]),
                   ),
                   SizedBox(height: 30.0),
                   RaisedButton(
