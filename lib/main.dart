@@ -141,7 +141,7 @@ class _IngresoSistemaState extends State<IngresoSistema> {
               Center(
                   child: Column(
                 children: <Widget>[
-                  Text(
+                  child: Text(
                     'Yei, Ya ingrese!',
                     style: TextStyle(fontSize: 15, color: Colors.indigo[900]),
                   ),
