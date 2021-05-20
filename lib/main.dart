@@ -136,7 +136,7 @@ class _IngresoSistemaState extends State<IngresoSistema> {
                   ) //fin de padding
                 ], //fin de Widget[3]
               ), //fin de Column
-              else 
+              else {
               Center(
                 child: Column(
                   children: <Widget>[
@@ -153,6 +153,7 @@ class _IngresoSistemaState extends State<IngresoSistema> {
                   ],
                 ),
               )
+            }
           ], //fin de Widget[1]
         ), //fin de ListView
       ), //fin de body SaveArea
