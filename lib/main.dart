@@ -146,7 +146,7 @@ class _IngresoSistemaState extends State<IngresoSistema> {
                     textAlign: TextAlign.center,
                     style: TextStyle(fontSize: 30, color: Colors.white),
                   ),
-                  SizedBox(height: 12.0),
+                  SizedBox(height: 30.0),
                   RaisedButton(
                     elevation: 20.0,
                     child: Text('Cerrar Sesion'),
