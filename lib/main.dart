@@ -111,7 +111,7 @@ class _IngresoSistemaState extends State<IngresoSistema> {
                       mainAxisAlignment: MainAxisAlignment.end,
                       children: <Widget>[
                         FlatButton(
-                          color: Colors.amber,
+                          //color: Colors.amber,
                           child: Text('CANCELAR'),
                           onPressed: () {
                             setState(() {
@@ -137,6 +137,8 @@ class _IngresoSistemaState extends State<IngresoSistema> {
                 ], //fin de Widget[3]
               ) //fin de Column
 
+              SizedBox(height: 12.0),
+
             else
               Center(
                   child: Column(
@@ -152,7 +154,9 @@ class _IngresoSistemaState extends State<IngresoSistema> {
                     },
                   )
                 ],
-              ))
+              )
+            )
+            
           ], //fin de Widget[1]
         ), //fin de ListView
       ), //fin de body SaveArea
