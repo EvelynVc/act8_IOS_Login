@@ -136,24 +136,26 @@ class _IngresoSistemaState extends State<IngresoSistema> {
                   ) //fin de padding
                 ], //fin de Widget[3]
               ), //fin de Column
-              else {
+
+              else
               Center(
                 child: Column(
                   children: <Widget>[
-                    Text('YAY, I am login!'),
+                    Text('Si, Ya ingrese!'),
                     RaisedButton(
                       elevation: 20.0,
-                      child: Text('Logout'),
+                      child: Text('Cerrar Sesion'),
                       onPressed: () {
                         setState(() {
-                          isLogin = false;
+                          acceso = false;
                         });
                       },
                     )
                   ],
                 ),
               )
-            }
+            
+
           ], //fin de Widget[1]
         ), //fin de ListView
       ), //fin de body SaveArea
