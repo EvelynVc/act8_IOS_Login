@@ -103,6 +103,34 @@ class _IngresoSistemaState extends State<IngresoSistema> {
                     ), //fin de inputDecoration
                     obscureText: true,
                   ), //fin de Textfield 2
+
+                  Padding(
+                    padding: const EdgeInsets.only(top: 18.0),
+                    child: Row(
+                      mainAxisAlignment: MainAxisAlignment.end,
+                      children: <Widget>[
+                        FlatButton(
+                          child: Text('CANCEL'),
+                          onPressed: () {
+                            setState(() {
+                              isLogin = false;
+                            });
+                          },
+                        ),
+                        RaisedButton(
+                          color: Colors.amber, //aqui....
+                          child: Text(
+                            'NEXT2',
+                          ),
+                          onPressed: () {
+                            setState(() {
+                              isLogin = true;
+                            });
+                          }, //fin de onPressed
+                        ), //fin de raised Button
+                      ], //fin de widget[4]
+                    ), //fin de fila
+                  ) //fin de padding
                 ], //fin de Widget[3]
               ), //fin de Column
           ], //fin de Widget[1]
