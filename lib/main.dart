@@ -121,7 +121,7 @@ class _IngresoSistemaState extends State<IngresoSistema> {
                         ),
                         SizedBox(width: 12.0), //AQUI.......
                         RaisedButton(
-                          color: Colors.amber,
+                          color: Colors.lightBlue[900],
                           child: Text(
                             'SIGUIENTE',
                           ),
