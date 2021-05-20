@@ -110,21 +110,21 @@ class _IngresoSistemaState extends State<IngresoSistema> {
                       mainAxisAlignment: MainAxisAlignment.end,
                       children: <Widget>[
                         FlatButton(
-                          child: Text('CANCEL'),
+                          child: Text('CANCELAR'),
                           onPressed: () {
                             setState(() {
-                              isLogin = false;
+                              acceso = false;
                             });
                           },
                         ),
                         RaisedButton(
                           color: Colors.amber, //aqui....
                           child: Text(
-                            'NEXT2',
+                            'SIGUIENTE',
                           ),
                           onPressed: () {
                             setState(() {
-                              isLogin = true;
+                              acceso = true;
                             });
                           }, //fin de onPressed
                         ), //fin de raised Button
