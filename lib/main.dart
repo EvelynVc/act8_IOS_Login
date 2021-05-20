@@ -83,9 +83,9 @@ class _IngresoSistemaState extends State<IngresoSistema> {
                 SizedBox(height: 16.0),
               ], //fin de Widget[2]
             ), //fin de column
-            if (!acceso)
-              {
-                Column(children: <Widget>[
+            if (!acceso){
+                Column(
+                  children: <Widget>[
                   TextField(
                     decoration: InputDecoration(
                       filled: true,
@@ -93,11 +93,12 @@ class _IngresoSistemaState extends State<IngresoSistema> {
                       labelText: 'Username',
                     ), //fin de InputDecoration
                   ), //fin de TextField
-                ] //fin de Widget[3]
-                    ) //fin de Column
-              } //verdadero
-            else
-              {} //falso
+                ], //fin de Widget[3]
+              ), //fin de Column
+            } //verdadero
+            else{
+
+            } //falso
           ], //fin de Widget[1]
         ), //fin de ListView
       ), //fin de body SaveArea
