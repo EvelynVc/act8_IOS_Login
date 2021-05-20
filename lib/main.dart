@@ -143,7 +143,7 @@ class _IngresoSistemaState extends State<IngresoSistema> {
                 children: <Widget>[
                   Text(
                     'Yei, Ya ingrese!',
-                    style: TextStyle(fontSize: 15, color: Colors.indigo[900]),
+                    style: TextStyle(fontSize: 50, color: Colors.indigo[900]),
                   ),
                   SizedBox(height: 12.0),
                   RaisedButton(
